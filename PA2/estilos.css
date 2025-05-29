@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+main{
+    min-height: 100vh;
+   background:  url("https://i.pinimg.com/736x/be/05/fa/be05fabffd288468e2f7f652dcf4f362.jpg") no-repeat center center fixed; 
+    background-size:cover;
+    color:white;
+    
+}
+
+#contenedor{    
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+#contenedor1{
+    position: sticky;
+    top:0;
+    background-color: burlywood;
+    z-index: 20;
+    border:1px solid white;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin:20px;
+}
+.menu li a{
+    text-decoration: none;
+    padding:10px;
+    text-transform: uppercase;
+    color:black
+}
+.links{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    
+}
+.links img{
+    width: 60%;
+    border-radius: 50%;
+}
+h1{
+    font-size: 4em;
+    letter-spacing: 5px;
+    padding:25px;
+    font-style: oblique;
+    text-align: center;
+    
+}
+h2{
+    font-size: 2em;
+    margin: 20px;
+    text-align: center;
+    
+}
+#todo{
+    width: 50%;
+    margin:auto;
+    height: 2500px;
+   
+}
+#todo nav ul a{
+    color:black
+}
+#contenido{
+    padding:20px;
+}
+#nupy img{
+    width: 100%;
+}
+#todo .redes li a img{
+    filter: invert(0);
+}
+#GRUMOSO{
+     float:left; 
+     margin:10px;    
+}
+#cafeina{
+    float:right;
+    margin:10px;
+}
+#foto{
+    width:50px;
+    border-radius: 50%;    
+}
+figure{
+    float:right;
+    text-align: center;
+    font-size: 0.8em;
+    color:#733A19
+}
+#contenido p{
+    text-align: justify;
+    padding:20px;
+    color: var(--color1);
+    
+
+}
+#galeria {
+  margin: auto; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.fotito{
+    width: 30%;  
+    margin:10px;
+    text-align: center; 
+     
+}
+
+.fotito img {
+  width:100%;
+  box-shadow: 6px 6px 6px var(--color2);
+  
+}
+
+#contenido .item p{
+    text-align: center;
+    color:var(--color1);
+    font-style: inherit;
+   
+}
+#galeria img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0px 8px 15px;
+}
+.video{
+    border:4px double var(--color4);
+    position:relative;
+    padding-bottom: 56.25%;
+    height:0 ;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px var(--color4);
+    z-index: 10;
+
+}
+.video iframe{
+    width: 100%;
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+
+}
